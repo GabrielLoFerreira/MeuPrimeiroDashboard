@@ -91,7 +91,7 @@ with graf_01:
             qtd_vendedor_estado,
             x='ID-Vendedor',
             y='Estado',
-            title='🔢 Quantidade de Vendeores por Estado'
+            title='🔢 Quantidade de Vendedores por Estado'
         )
     
         fig1.update_traces(
@@ -185,4 +185,5 @@ with graf_04:
 
         st.plotly_chart(fig4, use_container_width=True)
     else:
+
         st.warning("Não há dados selecionados para a criação do gráfico")  
