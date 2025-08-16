@@ -185,5 +185,4 @@ with graf_04:
 
         st.plotly_chart(fig4, use_container_width=True)
     else:
-
         st.warning("Não há dados selecionados para a criação do gráfico")  
